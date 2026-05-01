@@ -21,7 +21,8 @@ class NumberList {
 	 * @param limit（Listの最終要素）
 	 */
 	public void addFromOneTo(Integer limit) {
-		for (int i = 1; i <= n; i++) {
+		for (int i = 1; i <= limit; i++) {
+			numbers.add(i);
 
 		}
 
@@ -46,8 +47,10 @@ class NumberList {
 	 * 
 	 */
 	public void doubleListEachValue() {
-		for (int i = 0; i < numbers.size(); i++){ {
-			numbers.set(i, numbers.get(i)*2);
+		for (int i = 0; i < numbers.size(); i++) {
+			{
+				numbers.set(i, numbers.get(i) * 2);
+			}
 		}
 	}
 

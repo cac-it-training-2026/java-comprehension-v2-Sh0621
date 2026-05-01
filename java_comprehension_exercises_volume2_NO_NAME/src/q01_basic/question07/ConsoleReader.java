@@ -1,16 +1,16 @@
 package q01_basic.question07;
 
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class ConsoleReader {
-	new BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-	
-	public int inputNunmber() throws IOException,NumberFormatException{
-		String input=br.readLine();
+	BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+	public int inputNumber() throws IOException, NumberFormatException {
+		String input = reader.readLine();
 		return Integer.parseInt(input);
-		
+
 	}
 
 }
